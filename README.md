@@ -5,3 +5,5 @@ Bem vindos (as) ao repositório da SECOMPP. Aqui você encontrará cursos minist
 
 ## Estrutura dos diretórios
 Cada pasta é referente a um projeto e deverá conter seu próprio arquivo `README.md`, onde estarão as respectivas informações.
+
+Repositório clonado com o objetivo de criar um referencial para as tecnologias utilizadas nos cursos.

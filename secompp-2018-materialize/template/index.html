@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Materialize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://materializecss.com/images/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Roboto:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        html{
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .parallax-container h1{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            margin:0;
+            color:#fff;
+            z-index:2;
+            /*text-shadow:3px 3px 0 rgba(0,0,0,0.75);*/
+        }
+
+        .blackened{ /*&#129304;*/
+            position:absolute;
+            width:100%;
+            height:100%;
+            background:rgba(0,0,0,0.5);
+        }
+        
+        .card{
+            max-width: 100%;
+        }
+
+        .card-title{
+            text-shadow:.5px .5px 3px rgba(0,0,0,0.75);
+        }
+
+        .flex{
+            display: flex;
+        }
+
+        .flexrow{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .pic{
+            width:100%;
+            min-height: 215px;
+            background-image:url(https://vignette.wikia.nocookie.net/rememberme/images/b/ba/Max_Camera.jpg);
+            background-size:cover;
+            background-position-y: 50%;
+        }
+
+        .justify{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax-container">
+        <h1>MATERIALIZE</h1>
+        <div class="blackened"></div>
+        <div class="parallax"><img src="https://imgur.com/SvGy9iv.jpg"></div>
+    </div>
+
+    <div class="container">
+        <div class="row flexrow">
+            <div class="col s6 m2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://imgur.com/JRS43Ig.png">
+                        <span class="card-title">Max</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Hi, I'm Max and I take pictures.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m2 flex">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://imgur.com/njDgGtu.jpg">
+                        <span class="card-title">Chloe</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I'm Chloe and I hate bios.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m8 flex">
+                <div class="card pic"></div>
+            </div>
+        </div>
+        <div class="row justify">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat lectus suscipit bibendum tincidunt. Morbi viverra ullamcorper justo, id hendrerit nisl lobortis vitae. Morbi eu sollicitudin tortor, sed cursus purus. Proin malesuada vehicula diam non rhoncus. Suspendisse elementum tristique leo, eget tincidunt urna malesuada ac. Vivamus tellus ex, fermentum et est in, malesuada varius elit. Quisque consectetur massa commodo, hendrerit turpis in, viverra sapien. Ut egestas tortor sed nunc facilisis mollis. Cras quis elit luctus, viverra ligula sed, ultrices nibh. Donec eu risus blandit, vehicula leo at, malesuada ipsum. Sed ornare, ante id vestibulum commodo, metus erat pellentesque arcu, eget tincidunt dui elit et lectus. Maecenas eget urna rutrum, elementum tellus nec, ullamcorper lectus. Fusce finibus scelerisque leo sed scelerisque. Ut euismod quam sit amet massa aliquet, eget egestas lectus cursus. Duis mollis fermentum condimentum. Aenean eget eros id quam dignissim commodo ut quis diam.</p>
+            <p>Quisque commodo pharetra neque. Aliquam tempus quam a nunc facilisis, et faucibus est euismod. Integer eget congue massa. Vestibulum id purus est. In quis leo sit amet lacus condimentum laoreet. Nulla vestibulum porta porttitor. Sed varius tellus vel orci interdum iaculis in sed ipsum. Curabitur euismod odio ac est aliquet, aliquet dignissim leo lobortis. Fusce elementum nulla nec erat porta, ut pellentesque est eleifend. Integer eget elementum nibh, at vehicula lacus. Nulla id felis sit amet nulla pellentesque consequat eget id libero. Aliquam dictum ipsum id erat vestibulum, quis euismod nibh vulputate.</p>
+        </div>
+        <div class="row">
+            <div class="col s6 m3">
+                <img class="responsive-img" src="https://imgur.com/GxT6imq.png">
+            </div>
+            <div class="col s6 m3">
+                <img class="responsive-img" src="https://imgur.com/keQ35cE.png">
+            </div>
+            <div class="col s6 m3">
+                <img class="responsive-img" src="https://imgur.com/OshbSvs.png">
+            </div>
+            <div class="col s6 m3">
+                <img class="responsive-img" src="https://imgur.com/WRhuHLR.png">
+            </div>
+        </div>
+        <div class="row justify">
+            <p>Pellentesque scelerisque, urna in blandit elementum, neque sapien gravida metus, ac ullamcorper ligula eros quis massa. Aliquam lacinia imperdiet massa ac blandit. Sed vitae leo eu nisl ornare imperdiet. Mauris lacinia finibus purus. Vivamus lobortis sodales consequat. Suspendisse potenti. Donec velit elit, finibus sit amet elit quis, consequat pellentesque massa. Mauris viverra, odio nec venenatis aliquet, justo mi vestibulum ligula, porta elementum erat urna et tellus. Mauris vitae sodales mi, nec pellentesque sapien. Suspendisse hendrerit molestie magna, quis bibendum lorem cursus sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Nunc lorem metus, hendrerit placerat nibh ac, scelerisque molestie lectus.</p>
+            <p>Maecenas nunc tortor, volutpat sollicitudin blandit vel, tristique sit amet massa. In nisi tortor, cursus eget ex id, condimentum euismod lectus. In nec facilisis neque. Aliquam eu euismod nunc. Aenean laoreet, turpis nec cursus semper, nibh eros maximus nisi, at lobortis ante mi a arcu. Etiam tempus, dolor ut pharetra posuere, felis sapien vulputate turpis, sit amet interdum turpis turpis ut ipsum. Mauris convallis id est id luctus. Cras scelerisque consequat molestie.</p>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Col 1</h5>
+                    <p class="text-lighten-4">I'm a footer column.</p>
+                </div>
+                <div class="col l4 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>Links!</li>
+                        <li>Links!</li>
+                        <li>Links!</li>
+                        <li>Links!</li>
+                        <li>Links!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Maxine Caulfield
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            M.Parallax.init(document.querySelectorAll('.parallax'))
+        })
+    </script>
+</body>
+</html>
